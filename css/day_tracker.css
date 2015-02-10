@@ -1,0 +1,67 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Droid Sans', sans-serif, Arial, sans-serif;
+	letter-spacing: 2px;
+	color: #333;
+	text-align: center;
+	background-color: #1D1D1E;
+}
+
+#tab_container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.tab {
+	position: relative;
+	float: left;
+	background-color:#00B2B2;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.day {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 22px;
+	color: #5200CC;
+
+}
+
+#today {
+	height: 250px;
+	background-color: #5200CC;
+	
+}
+
+#today .day {
+	font-size: 38px;
+	font-weight: bold;
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+#message{
+	padding: 75px;
+	font-size: 40px;
+	color: #FF33CC;
+	background-color: #5200CC;
+	border-radius: 20px;
+
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 50px;
+	height: 500px;
+}
